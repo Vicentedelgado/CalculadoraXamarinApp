@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/calculator_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textSize="50sp"
+            android:text="@string/123" />
+    </HorizontalScrollView>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        app:orientation="horizontal"
+        app:rowCount="5"
+        app:columnCount="4">
+        <Button
+            style="@style/button_calculator"
+            app:layout_columnSpan="4"
+            android:text="@string/DEL" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/7" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/8" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/9" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/÷" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/4" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/5" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/6" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/×" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/1" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/2" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/3" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/-" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/." />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/0" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/=" />
+        <Button
+            style="@style/button_calculator"
+            android:text="@string/+" />
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>
