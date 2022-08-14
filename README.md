@@ -2,9 +2,9 @@
 
 Ejemplo de Aplicaion en android nativo Xamarin App
 <br />
-### Instalando libliotecas y Herramiantas
+### Instalando Bibliotecas y Herramiantas
 
-- Dar click derecho sobre Referencia como indica imagen para agreagar una nueva referencia
+- Dar click derecho sobre Referencia como indica la imagen para agreagar una nueva referencia
 
 ![Vista de agregar referencia](./Capturas/Imagen1.png)
 
@@ -12,7 +12,7 @@ Ejemplo de Aplicaion en android nativo Xamarin App
 
 ![Vista agregar Mono.Android.Export](./Capturas/Captura6.PNG)
 
-- Intalando paquetes NuGEt necesario como indica la imagen
+- Instalar paquetes NuGEt necesarios como indica la imagen
 
 ![Vista de paquetes NuGet](./Capturas/Captura7.PNG)
 <br />
