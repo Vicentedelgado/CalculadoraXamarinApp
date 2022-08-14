@@ -1,8 +1,8 @@
-# CalculadoraXamarinApp
+# Calculadora Xamarin App Nativo
 
-Ejemplo de Aplicaion en android nativo Xamarin App
+Ejemplo de Aplicación en android nativo Xamarin App
 <br />
-### Instalando Bibliotecas y Herramiantas
+### Instalando Bibliotecas y Herramientas
 
 - Dar click derecho sobre Referencia como indica la imagen para agreagar una nueva referencia
 
@@ -39,7 +39,7 @@ Ejemplo de Aplicaion en android nativo Xamarin App
 ### Prueba aplicación en producción
 <br />
 
-- Imagen de Aplicación corriendo
+- Aplicación corriendo
 
 ![Instacion APK](./Capturas/1.png)
 
